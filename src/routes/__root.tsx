@@ -93,6 +93,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Synapse — AI Workplace Productivity Assistant" },
+      { name: "description", content: "AI Workplace Productivity Assistant automates professional tasks with AI." },
+      { property: "og:description", content: "AI Workplace Productivity Assistant automates professional tasks with AI." },
+      { name: "twitter:description", content: "AI Workplace Productivity Assistant automates professional tasks with AI." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d6128e82-a760-4d11-a190-72bf554f7468/id-preview-6478e5ab--6ed43cab-f47f-4713-8000-17157e42410e.lovable.app-1781768317602.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d6128e82-a760-4d11-a190-72bf554f7468/id-preview-6478e5ab--6ed43cab-f47f-4713-8000-17157e42410e.lovable.app-1781768317602.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
